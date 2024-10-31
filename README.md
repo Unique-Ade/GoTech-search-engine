@@ -149,7 +149,7 @@ A live demo will be available soon
 ## Authors
 
 - *Adeola Gabriel Olagbenro* - [Unique-Ade](https://github.com/Unique-Ade)
-- *Collaborator 1 Name* - [GitHub username](https://github.com/username)
+- *Collaborator 1 Name* - [GitHub username](https://github.com/bee-jay80)
 - *Collaborator 2 Name* - [GitHub username](https://github.com/username)
 
 
