@@ -54,7 +54,8 @@ cd goTech-search-engine
 - Create a virtual environment and install dependencies:
 
 ```python -m venv venv
-source venv/bin/activate  # On Windows, use venv\Scripts\activate
+source venv/bin/activate
+# On Windows, `use venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 c. Configure the database in settings.py and apply migrations:
@@ -76,8 +77,8 @@ Start the Django server:
 
 ```npm create vite@latest GoTech-search-engine -- --template react```
 
-- Steps After Initialization
-Navigate to the Project Directory:
+- Steps After Initialization: 
+  Navigate to the Project Directory:
 
 ```cd GoTech-search-engine```
 - Install Dependencies:
