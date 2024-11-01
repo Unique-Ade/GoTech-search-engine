@@ -67,7 +67,7 @@ const SearchComponent = () => {
           {suggestions.map((suggestion, i) => {
             return (
               <div key={i}>
-                <p className="px-2 py-3 bg-red-500 cursor-pointe snap-start">{suggestion}</p>
+                <p className="px-2 py-3 cursor-pointer snap-start">{suggestion}</p>
               </div>
             );
           })}
