@@ -149,8 +149,8 @@ A live demo will be available soon
 ## Authors
 
 - *Adeola Gabriel Olagbenro* - [Unique-Ade](https://github.com/Unique-Ade)
-- *Collaborator 1 Name* - [bee-jay80](https://github.com/bee-jay80)
-- *JOhn Caleb* - [Kalebb12](https://github.com/kalebb12)
+- *John Bright* - [bee-jay80](https://github.com/bee-jay80)
+- *John Caleb* - [Kalebb12](https://github.com/kalebb12)
 
 
 
