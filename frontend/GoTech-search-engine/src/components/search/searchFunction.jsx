@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import OutsideClickHandler from 'react-outside-click-handler'
 const SearchComponent = () => {
   const [userInput, setUserInput] = useState("");
   const [suggestions, setSuggestions] = useState([]);
@@ -63,15 +63,17 @@ const SearchComponent = () => {
         onChange={(e) => handleChange(e)}
       />
       {suggestions?.length > 0 && showSuggestions && (
-        <div className="absolute snap-proximity top-[53px] snap-y nap-start w-full flex flex-col py-2 px-2 gap-1 bg-black text-white max-h-[164px] rounded-md overflow-auto">
-          {suggestions.map((suggestion, i) => {
+        <OutsideClickHandler  onOutsideClick={()=>setShowSuggestions(false)}>
+        <div className="absolute snap-proximity top-[53px] snap-y nap-start w-full flex flex-col py-2 px-2 gap-1 bg-black text-white max-h-[168px] rounded-md overflow-auto">
+          {suggestions.slice(0,3).map((suggestion, i) => {
             return (
               <div key={i}>
                 <p className="px-2 py-3 cursor-pointer snap-start">{suggestion}</p>
               </div>
             );
           })}
-        </div>
+          </div>
+        </OutsideClickHandler>
       )}
     </form>
   );
